@@ -1,0 +1,146 @@
+/* titulo */
+.sobre_titulo{
+    color: #da0c0c;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+    text-align: center;
+}
+/* treino */
+.receitas{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+.receita{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 5rem 0;
+    width: calc(33.33% - 2.5rem);
+}
+.receita_titulo{
+    font-size: 1.4375rem;
+}
+.receita_descricao{
+    font-size: 1.1875rem;
+    text-align: justify;
+}
+.receita_conteudo{
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+.receita_botao{
+    background-color: #da0c0c;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.receita_botao:hover{
+    background-color: #3785EF;
+    cursor: pointer;
+}
+.receita_botao_creatina{
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.receita_botao_creatina:hover{
+    background-color: #d65d5d;
+    cursor: pointer;
+}
+.receita_botao_whey{
+    background-color: #979908;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.receita_botao_whey:hover{
+    background-color: #dadb83;
+    cursor: pointer;
+}
+/* pessoa */
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.pessoa_funcao{
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+.pessoa_imagem{
+    background-position: center; /*centraliza a imagem na div*/
+    background-repeat: no-repeat; /*só exibe o background uma vez na div*/
+    background-size: cover; /*o background ocupa todo o espaço da div*/
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#pessoa_imagem_andreia{
+    background-image: url('../img/quem-somos.webp');
+}
+
+#pessoa_imagem_roberta{
+    background-image: url('../img/quem-somos.webp');
+}
+
+#pessoa_imagem_marcela{
+    background-image: url('../img/quem-somos.webp');
+}
+
+.pessoa_nome{
+    color: #da0c0c;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+/*quem somos*/
+.quem_somos_descricao{
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.quem_somos_titulo{
+    color: #da0c0c;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+.quem_somos{
+    padding: 5rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+/* rodape */
+ .rodape{
+    background-color: #e0e0e0;
+    color: #fa0000;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+    font-size: 2rem;
+}
